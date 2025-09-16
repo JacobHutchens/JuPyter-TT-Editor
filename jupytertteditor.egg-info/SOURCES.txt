@@ -1,0 +1,8 @@
+README.md
+setup.py
+jupytertteditor/__init__.py
+jupytertteditor/main.py
+jupytertteditor.egg-info/PKG-INFO
+jupytertteditor.egg-info/SOURCES.txt
+jupytertteditor.egg-info/dependency_links.txt
+jupytertteditor.egg-info/top_level.txt
