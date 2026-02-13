@@ -1,7 +1,7 @@
 README.md
 pyproject.toml
-src/__init__.py
-src/main.py
+src/jupytertteditor/__init__.py
+src/jupytertteditor/main.py
 src/jupytertteditor.egg-info/PKG-INFO
 src/jupytertteditor.egg-info/SOURCES.txt
 src/jupytertteditor.egg-info/dependency_links.txt

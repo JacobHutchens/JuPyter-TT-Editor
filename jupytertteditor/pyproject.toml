@@ -18,5 +18,8 @@ classifiers = [
 ]
 dependencies = []
 
+[tool.setuptools]
+package-dir = {"" = "src"}
+
 [project.urls]
 "Homepage" = "https://github.com/JacobHutchens/JuPyter-TT-Editor"
