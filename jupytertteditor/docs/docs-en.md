@@ -119,7 +119,7 @@ Removes the column named `col_name` from the table.
 
 ## Example usage
 
-Refer to the [showcase notebook](../example/showcase.ipynb) for a clear example showcase of the library's capabilities!
+Refer to the [showcase notebook](../docs/showcase.md) for a clear showcase of the library's capabilities!
 
 > **Tip:** Use short, descriptive column names so that `display()` stays readable. You can always rename with `change_column_name` if you get the label wrong.
 
