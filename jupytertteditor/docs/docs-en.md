@@ -37,21 +37,19 @@ Example output:
 
 Column headers are single letters (`A`, `B`, `C`, …); with more than 26 variables they repeat (e.g. `AA`, `AB`). Rows follow standard binary ordering so all combinations of `True`/`False` are covered.
 
-## API reference
+## `TruthTable` class Reference
 
-### `TruthTable` class
-
-#### Constructor
+### Constructor
 
 **`TruthTable(var_count: int)`**
 
-Creates a truth table with `var_count` input variables. The table has \(2^{\texttt{var\_count}}\) rows and initial columns labeled `A`, `B`, `C`, … (or `AA`, `AB`, … when needed).
+Creates a truth table with `var_count` input variables. The table has (2^{`var_count`}) rows and initial columns labeled `A`, `B`, `C`, … (or `AA`, `AB`, … when needed).
 
 ```python
 TT = jtte.TruthTable(3)  # 3 variables → 8 rows, columns A, B, C
 ```
 
-#### Display and data
+### Display and data
 
 **`get_truth_table() -> dict`**
 
@@ -65,7 +63,7 @@ Returns the number of rows (\(2^{\texttt{var\_count}}\)).
 
 Prints the truth table to the console with aligned columns and `True`/`False` values.
 
-#### Column operations
+### Column operations
 
 **`create_column(col_name, not_x, col_name_x, operator, not_y, col_name_y)`**
 
