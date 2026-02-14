@@ -1,8 +1,5 @@
 # Jupyter Truth Table Editor — Showcase
 
-
-# Jupyter Truth Table Editor — Showcase
-
 This notebook demonstrates how to use **jupytertteditor** to build and
 display truth tables step by step.
 
