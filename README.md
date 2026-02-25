@@ -1,4 +1,4 @@
-Logic Mapper for Truth Tables in JuPyter Notebooks
+# Logic Mapper for Truth Tables in JuPyter Notebooks
 
 ## Overview
 
